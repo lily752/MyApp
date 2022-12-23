@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2B"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:text="@string/how_to_ride_bike"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="LabelFor" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3B"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center|center_horizontal"
+            android:inputType="textPersonName"
+            android:paddingTop="15dp"
+            android:text="@string/follow_the_rules"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="DuplicateIds,LabelFor" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName4B"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:cursorVisible="false"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/always_respect_other_road_users_and_pedestrians"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageViewB"
+            android:layout_width="410dp"
+            android:layout_height="410dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/bb" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName5B"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:paddingTop="15dp"
+            android:inputType="textPersonName"
+            android:gravity="center|center_horizontal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@string/check_the_bike" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName6B"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="16sp"
+            android:text="@string/check_the_brakes_lights_adapt_the_seat_and_make_sure_the_tyres_have_air" />
+
+        <ImageView
+            android:id="@+id/imageView2B"
+            android:layout_width="410dp"
+            android:layout_height="410dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/bbtwo"/>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName7B"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:paddingTop="15dp"
+            android:inputType="textPersonName"
+            android:gravity="center|center_horizontal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@string/park_with_care" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName8B"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="16sp"
+            android:text="@string/park_responsibly_like_the_e_bike_was_your_own"
+            />
+
+
+        <ImageView
+            android:id="@+id/imageView3B"
+            android:layout_width="410dp"
+            android:layout_height="410dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/bbthree" />
+        </LinearLayout>
+        </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

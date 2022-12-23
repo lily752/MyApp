@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Spinner
+        android:id="@+id/type_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#FFFFFF"
+        android:padding="3dp"
+        tools:ignore="MissingConstraints" />
+
+    <ListView
+        android:id="@+id/Vehicles_List"
+        android:layout_width="match_parent"
+        android:layout_height="617dp"
+
+        android:layout_below="@id/type_spinner"
+        android:backgroundTint="#FFFFFF"
+        android:dividerHeight="10.0sp"
+        android:padding="3dp"></ListView>
+
+    <android.widget.Button
+        android:id="@+id/button2"
+        android:layout_width="374dp"
+        android:layout_height="48dp"
+        android:background="@drawable/btn_cos"
+        android:gravity="center"
+        android:text="How To Ride"
+        tools:ignore="MissingConstraints" /><![CDATA[
+
+
+
+
+
+
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:dividerPadding="10dp"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+
+
+
+
+
+
+]]>
+</LinearLayout>

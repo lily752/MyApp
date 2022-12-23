@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">My App</string>
+
+    <string name="how_to_ride_scooter">How To Ride Scooter</string>
+    <string name="how_to_ride_bike">How To Ride Bike</string>
+    <string name="how_to_ride_moped">How To Ride E-moped</string>
+    <string name="ride_safely">Ride safely</string>
+    <string name="bring_your_own_helmet_to_stay_safe_while_you_ride_always_follow_local_helmet_laws">Bring your own helmet to stay safe while you ride. Always follow local helmet laws.</string>
+    <string name="kick_start">Kick-start</string>
+    <string name="push_with_your_foot_to_get_going">Push with your foot to get going.</string>
+    <string name="accelerate">Accelerate</string>
+    <string name="brake">Brake</string>
+    <string name="park_responsibly">Park responsibly</string>
+    <string name="please_make_sure_your_vehicle_is_parked_properly_and_not_blocking_tactile_paving_driveways_or_public_transport">Please make sure your vehicle is parked properly and not blocking tactile paving, driveways or public transport.</string>
+    <string name="use_the_right_lever_to_accelerate_push_slowly_to_gradually_gain_speed_and_adjust">Use the right lever to accelerate.Push slowly to gradually gain speed and adjust.</string>
+    <string name="always_respect_other_road_users_and_pedestrians">Always respect other road users and pedestrians.</string>
+    <string name="follow_the_rules">Follow the rules</string>
+    <string name="check_the_brakes_lights_adapt_the_seat_and_make_sure_the_tyres_have_air">Check the brakes, lights, adapt the seat, and make sure the tyres have air.</string>
+    <string name="check_the_bike">Check the bike</string>
+    <string name="park_with_care">Park with care</string>
+    <string name="park_responsibly_like_the_e_bike_was_your_own">Park responsibly, like the e-bike was your own!</string>
+    <string name="safety_first">Safety first</string>
+    <string name="almost_ready">Almost ready!</string>
+    <string name="fold_up_the_kickstand">Fold up the kickstand.</string>
+    <string name="press_the_button_on_the_right_side_of_the_handlebar_to_open_the_trunk_and_put_on_the_helmet">Press the button on the right side of the handlebar to open the trunk and put on the helmet.</string>
+    <string name="start_your_engine">Start your engine!</string>
+    <string name="squeeze_one_of_the_brakes_and_push_the_go_button_for_3_seconds_to_start_the_engine">Squeeze one of the brakes and push the \'GO\' button for 3 seconds to start the engine.</string>
+    <string name="follow_the_law">Follow the law</string>
+    <string name="please_respect_the_other_drivers_and_pedestrians">Please respect the other drivers and pedestrians.</string>
+    <string name="use_the_left_or_right_lever_to_slow_down">Use the left or right lever to slow down.</string>
+    <string name="parking_e_moped">Parking E-Moped</string>
+    <string name="park_responsibly_don_t_block_other_people_or_traffic">Park responsibly, don\'t block other people or traffic.</string>
+    <string name="kickstand">Kickstand</string>
+    <string name="fold_down_the_kickstand">Fold down the kickstand</string>
+    <string name="helmet_away">Helmet away!</string>
+    <string name="don_t_forget_to_put_the_helmet_back_in_the_trunk">Don\'t forget to put the helmet back in the trunk</string>
+    <string name="lock_your_e_moped">Lock your E-Moped</string>
+    <string name="turn_your_handlebars_all_the_way_to_the_left_to_lock_the_moped">Turn your handlebars all the way to the left to lock the moped</string>
+
+</resources>

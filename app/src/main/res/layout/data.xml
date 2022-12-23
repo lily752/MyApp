@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="384dp"
+            android:layout_height="413dp"
+            android:layout_gravity="center"
+            android:background="#7f3a93"
+            app:srcCompat="@drawable/ebike" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="monospace"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="monospace"
+            android:text="TextView"
+            android:textSize="30dp" />
+
+
+        <TextView
+            android:id="@+id/cost"
+            android:layout_width="272dp"
+            android:layout_height="69dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="-2dp"
+            android:layout_marginBottom="28dp"
+            android:fontFamily="monospace"
+            android:text="TextView"
+            android:textSize="24sp" />
+
+        <Button
+
+            android:id="@+id/rent"
+            android:layout_width="284dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#7f3a93"
+            android:drawablePadding="20dp"
+
+
+            android:fontFamily="monospace"
+            android:text="Rent" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

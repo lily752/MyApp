@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/editTextTextPersonNameM1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:text="@string/how_to_ride_moped"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="LabelFor" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName3M"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center|center_horizontal"
+                android:inputType="textPersonName"
+                android:paddingTop="15dp"
+                android:text="@string/safety_first"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="DuplicateIds,LabelFor" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName4M"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:cursorVisible="false"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="@string/press_the_button_on_the_right_side_of_the_handlebar_to_open_the_trunk_and_put_on_the_helmet"
+                android:textSize="16sp"
+                tools:ignore="LabelFor" />
+
+            <ImageView
+                android:id="@+id/imageViewM1"
+                android:layout_width="410dp"
+                android:layout_height="410dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/cds" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName5M"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:paddingTop="15dp"
+                android:inputType="textPersonName"
+                android:gravity="center|center_horizontal"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/almost_ready" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName6M"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="16sp"
+                android:text="@string/fold_up_the_kickstand" />
+
+            <ImageView
+                android:id="@+id/imageView2M"
+                android:layout_width="410dp"
+                android:layout_height="410dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/dlf"/>
+
+            <EditText
+                android:id="@+id/editTextTextPersonName7M"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:paddingTop="15dp"
+                android:inputType="textPersonName"
+                android:gravity="center|center_horizontal"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/start_your_engine" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName8M"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="16sp"
+                android:text="@string/squeeze_one_of_the_brakes_and_push_the_go_button_for_3_seconds_to_start_the_engine"
+                />
+
+
+            <ImageView
+                android:id="@+id/imageView31M"
+                android:layout_width="410dp"
+                android:layout_height="410dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/moeue"
+                />
+            <ImageView
+                android:id="@+id/imageView32M"
+                android:layout_width="410dp"
+                android:layout_height="410dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/mnfd"
+                />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName9M"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:gravity="center|center_horizontal"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingTop="15dp"
+                android:text="@string/follow_the_law" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName10M"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="16sp"
+                android:inputType="textPersonName"
+                android:text="@string/please_respect_the_other_drivers_and_pedestrians" />
+
+            <ImageView
+                android:id="@+id/imageView4M"
+                android:layout_width="410dp"
+                android:layout_height="410dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/eweq" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName11M"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:gravity="center|center_horizontal"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingTop="15dp"
+                android:text="@string/parking_e_moped"
+                />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName12M"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="16sp"
+                android:inputType="textPersonName"
+                android:text="@string/park_responsibly_don_t_block_other_people_or_traffic" />
+
+            <ImageView
+                android:id="@+id/imageViewM5"
+                android:layout_width="410dp"
+                android:layout_height="410dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/vbf" />
+            <EditText
+                android:id="@+id/editTextTextPersonName13M"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:gravity="center|center_horizontal"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingTop="15dp"
+                android:text="@string/kickstand"
+                />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName14M"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="16sp"
+                android:inputType="textPersonName"
+                android:text="@string/fold_down_the_kickstand" />
+
+            <ImageView
+                android:id="@+id/imageView6M"
+                android:layout_width="410dp"
+                android:layout_height="410dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/mootwo" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName15M"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center|center_horizontal"
+                android:inputType="textPersonName"
+                android:paddingTop="15dp"
+                android:text="@string/helmet_away"
+                android:textColor="#E30808"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName16M"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="16sp"
+                android:inputType="textPersonName"
+                android:text="@string/don_t_forget_to_put_the_helmet_back_in_the_trunk" />
+
+            <ImageView
+                android:id="@+id/imageView7M"
+                android:layout_width="410dp"
+                android:layout_height="410dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/mone"
+               />
+            <EditText
+                android:id="@+id/editTextTextPersonName17M"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:gravity="center|center_horizontal"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingTop="15dp"
+                android:text="@string/lock_your_e_moped"
+                />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName18M"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="16sp"
+                android:inputType="textPersonName"
+                android:text="@string/turn_your_handlebars_all_the_way_to_the_left_to_lock_the_moped" />
+
+            <ImageView
+                android:id="@+id/imageView8M"
+                android:layout_width="410dp"
+                android:layout_height="410dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/wwq"
+                 />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
