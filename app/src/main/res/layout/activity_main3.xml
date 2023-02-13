@@ -9,6 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#E2C4FAF1"
         android:orientation="vertical">
 
         <EditText
@@ -24,6 +25,8 @@
 
         <ImageButton
             android:id="@+id/imageButton"
+            android:layout_margin="10dp"
+            android:background="#E2C4FAF1"
             android:layout_width="match_parent"
             android:layout_height="143dp"
             android:scaleType="fitCenter"
@@ -34,8 +37,10 @@
         <ImageButton
             android:id="@+id/imageButton2"
             android:layout_width="match_parent"
+            android:layout_margin="10dp"
             android:layout_height="149dp"
             android:scaleType="fitCenter"
+            android:background="#E2C4FAF1"
             android:src="@drawable/bikeee"
 
             />
@@ -43,10 +48,11 @@
         <ImageButton
             android:id="@+id/imageButton3"
             android:layout_width="match_parent"
+            android:layout_margin="10dp"
             android:layout_height="142dp"
             android:scaleType="fitCenter"
             android:src="@drawable/mopoo"
-
+            android:background="#E2C4FAF1"
             />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

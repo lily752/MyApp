@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+    android:background="@drawable/backgroundphoto"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
@@ -12,50 +12,31 @@
 
     <Spinner
         android:id="@+id/type_spinner"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:backgroundTint="#FFFFFF"
+        android:layout_width="362dp"
+        android:layout_height="52dp"
+        android:background="@drawable/corner_shape"
+        android:fontFamily="monospace"
+        android:backgroundTint="#9A7474D1"
         android:padding="3dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintBottom_toTopOf="@+id/Vehicles_List"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.266" />
 
     <ListView
         android:id="@+id/Vehicles_List"
-        android:layout_width="match_parent"
-        android:layout_height="617dp"
-
+        android:layout_width="387dp"
+        android:layout_height="657dp"
         android:layout_below="@id/type_spinner"
-        android:backgroundTint="#FFFFFF"
-        android:dividerHeight="10.0sp"
-        android:padding="3dp"></ListView>
-
-    <android.widget.Button
-        android:id="@+id/button2"
-        android:layout_width="374dp"
-        android:layout_height="48dp"
-        android:background="@drawable/btn_cos"
-        android:gravity="center"
-        android:text="How To Ride"
-        tools:ignore="MissingConstraints" /><![CDATA[
+        android:layout_marginBottom="28dp"
+        android:backgroundTint="#9F9696"
+        android:dividerHeight="5.0sp"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
-
-
-
-
-
-
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:dividerPadding="10dp"
-    android:orientation="horizontal"
-    android:paddingLeft="10dp"
-    android:paddingRight="10dp">
-
-
-
-
-
-
-
-]]>
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

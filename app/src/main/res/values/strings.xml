@@ -37,4 +37,17 @@
     <string name="lock_your_e_moped">Lock your E-Moped</string>
     <string name="turn_your_handlebars_all_the_way_to_the_left_to_lock_the_moped">Turn your handlebars all the way to the left to lock the moped</string>
 
+    <string name="button">Button</string>
+
+    <string name="cost_5_to_unlock_0_9_per_minute">Cost: 5 to unlock+ 0.9 per min</string>
+
+    <string name="first_time_read_the_instructions">First Time?! Read the Instructions.</string>
+
+    <string name="rent">Rent</string>
+
+    <string name="how_to_ride">How To Ride</string>
+
+    <string name="start_riding">Start Riding</string>
+
+    <string name="end_ride">End Ride</string>
 </resources>

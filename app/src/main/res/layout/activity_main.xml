@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/im"
+    android:background="@drawable/backgroundphoto"
     android:backgroundTintMode="src_over"
     tools:context=".MainActivity"
 
@@ -18,7 +18,7 @@
         android:fontFamily="monospace"
         android:text="Start"
         android:textAllCaps="false"
-        android:textColor="#EDD3D3"
+        android:textColor="#acefce"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -26,7 +26,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.611" />
+        app:layout_constraintVertical_bias="0.394" />
 
     <TextView
         android:id="@+id/text"
@@ -37,24 +37,15 @@
         android:gravity="center"
         android:inputType="textPersonName"
         android:text="TIERD"
-        android:textColor="#7f3a93"
+        android:textColor="#9999FF"
         android:textSize="60sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.421"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.198" />
-
-    <ImageView
-        android:id="@+id/bike"
-        android:layout_width="407dp"
-        android:layout_height="328dp"
-        app:srcCompat="@drawable/hoh"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="48dp" />
 
     <android.widget.Button
         android:id="@+id/buttonn"
@@ -62,13 +53,23 @@
         android:layout_height="48dp"
         android:layout_marginBottom="28dp"
         android:background="@drawable/btn_cos"
-        android:backgroundTint="#45EFE6E6"
-        android:foregroundTint="#54FBF1F1"
+        android:backgroundTint="#acefce"
+
         android:text="Contact Us"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.901"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Mylocation"
+        android:layout_width="158dp"
+        android:layout_height="49dp"
+        android:text="TextView"
+        android:textSize="34sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="665dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

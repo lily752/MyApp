@@ -3,18 +3,30 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Lana/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_dropdown_item.xml" value="0.15942028985507245" />
+        <entry key="..\:/Users/Lana/Downloads/MyApp/app/src/main/res/drawable/bgbtngreen.xml" value="0.1705" />
         <entry key="..\:/Users/Lana/Downloads/MyApp/app/src/main/res/drawable/btn_cos.xml" value="0.178" />
+        <entry key="..\:/Users/Lana/Downloads/MyApp/app/src/main/res/drawable/btnred.xml" value="0.1705" />
+        <entry key="..\:/Users/Lana/Downloads/MyApp/app/src/main/res/drawable/corner_image.xml" value="0.173" />
+        <entry key="..\:/Users/Lana/Downloads/MyApp/app/src/main/res/drawable/corner_shape.xml" value="0.123" />
+        <entry key="..\:/Users/Lana/Downloads/MyApp/app/src/main/res/drawable/cornerimg.xml" value="0.1195" />
         <entry key="..\:/Users/Lana/Downloads/MyApp/app/src/main/res/drawable/costum_button.xml" value="0.178" />
         <entry key="..\:/Users/Lana/Downloads/MyApp/app/src/main/res/drawable/selector.xml" value="0.1705" />
         <entry key="..\:/Users/Lana/Downloads/MyApp/app/src/main/res/layout/activity_log_in.xml" value="0.14130434782608695" />
         <entry key="..\:/Users/Lana/Downloads/MyApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Users/Lana/Downloads/MyApp/app/src/main/res/layout/activity_main2.xml" value="0.1" />
-        <entry key="..\:/Users/Lana/Downloads/MyApp/app/src/main/res/layout/activity_main3.xml" value="0.1" />
+        <entry key="..\:/Users/Lana/Downloads/MyApp/app/src/main/res/layout/activity_main2.xml" value="0.22" />
+        <entry key="..\:/Users/Lana/Downloads/MyApp/app/src/main/res/layout/activity_main3.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Lana/Downloads/MyApp/app/src/main/res/layout/activity_my_location.xml" value="0.15260416666666668" />
+        <entry key="..\:/Users/Lana/Downloads/MyApp/app/src/main/res/layout/activity_qrcode.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/Lana/Downloads/MyApp/app/src/main/res/layout/activity_rent.xml" value="0.165625" />
         <entry key="..\:/Users/Lana/Downloads/MyApp/app/src/main/res/layout/activity_sign_up.xml" value="0.14130434782608695" />
-        <entry key="..\:/Users/Lana/Downloads/MyApp/app/src/main/res/layout/bike.xml" value="0.2600671140939597" />
-        <entry key="..\:/Users/Lana/Downloads/MyApp/app/src/main/res/layout/contactus.xml" value="0.1796875" />
-        <entry key="..\:/Users/Lana/Downloads/MyApp/app/src/main/res/layout/data.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/Lana/Downloads/MyApp/app/src/main/res/layout/activity_timer.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Lana/Downloads/MyApp/app/src/main/res/layout/activity_watch.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/Lana/Downloads/MyApp/app/src/main/res/layout/bike.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Lana/Downloads/MyApp/app/src/main/res/layout/contactus.xml" value="0.1536144578313253" />
+        <entry key="..\:/Users/Lana/Downloads/MyApp/app/src/main/res/layout/data.xml" value="0.1" />
         <entry key="..\:/Users/Lana/Downloads/MyApp/app/src/main/res/layout/moped.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Lana/Downloads/MyApp/app/src/main/res/layout/roundingalone.xml" value="0.16145833333333334" />
         <entry key="..\:/Users/Lana/Downloads/MyApp/app/src/main/res/layout/scooter.xml" value="0.1" />
       </map>
     </option>

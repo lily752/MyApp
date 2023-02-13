@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/backgroundphoto"
     android:padding="16dp">
 
     <TextView
@@ -39,19 +40,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="end"
+        android:layout_marginTop="50dp"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/submit_button"
-            android:layout_width="wrap_content"
+            android:layout_width="112dp"
             android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/corner_shape"
             android:text="Submit"
             app:iconPadding="13dp" />
 
         <Button
             android:id="@+id/reset_button"
-            android:layout_width="wrap_content"
+            android:layout_width="112dp"
             android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/corner_shape"
             android:text="Reset" />
 
     </LinearLayout>

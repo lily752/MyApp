@@ -14,10 +14,9 @@ import android.widget.TextView;
 
 
 public class MainActivity3 extends AppCompatActivity {
-
-        private int seconds = 0;
-        private boolean riding = false;
-        Button startButton;
+    private int seconds = 0;
+    private boolean riding = false;
+    Button startButton;
     ImageButton imageButton1;
     ImageButton imageButton2;
     ImageButton imageButton3;

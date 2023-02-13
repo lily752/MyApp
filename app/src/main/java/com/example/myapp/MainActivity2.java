@@ -26,37 +26,23 @@ public class MainActivity2 extends AppCompatActivity {
     ArrayList<vehicle> result;
     String[] msg;
     vehicle[] newRes;
-    Button button2;
+    Button rent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
+        VehiclesList = findViewById(R.id.Vehicles_List);
         Spinner spinner = findViewById(R.id.type_spinner);
+        spinner.setPrompt("Select an option");
+
         ArrayAdapter<String> spinnerAdapter = new ArrayAdapter<>(MainActivity2.this, android.R.layout.simple_spinner_dropdown_item, VehiclesType);
         spinner.setAdapter(spinnerAdapter);
-
-        VehiclesList = findViewById(R.id.Vehicles_List);
-        CustomAdapter customAdapter = new CustomAdapter();
-
-
-        button2 = (Button) findViewById(R.id.button2);
-        button2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent =new Intent(MainActivity2.this ,MainActivity3.class);
-                startActivity(intent);
-            }
-        });
-
-
-
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
 
-
+            // to change the listview content based on what thus user chooses from the spinner
             public void onItemSelected(AdapterView<?> parentView, View selectedItemView, int position, long id) {
-
 
                 CustomAdapter listAdapt;
                 if (position == 0) {
@@ -132,10 +118,7 @@ public class MainActivity2 extends AppCompatActivity {
         });
 
 
-
-
-
-    }
+   }
 
     private class CustomAdapter extends BaseAdapter {
 
@@ -159,7 +142,7 @@ public class MainActivity2 extends AppCompatActivity {
         public View getView(int i, View view, ViewGroup viewGroup) {
 
             View view1 = getLayoutInflater().inflate(R.layout.data, null);
-            //getting view in row_data
+            //getting view in data
             TextView vehicleName = view1.findViewById(R.id.title);
             TextView vehicleType = view1.findViewById(R.id.type);
             TextView cost = view1.findViewById(R.id.cost);
@@ -169,6 +152,15 @@ public class MainActivity2 extends AppCompatActivity {
             vehicleType.setText("Type: " + newRes[i].getType());
             cost.setText(newRes[i].getCost() + "$ per min ");
             image.setImageResource(newRes[i].getImg());
+
+            rent =  view1.findViewById(R.id.rent);
+            rent.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent =new Intent(MainActivity2.this ,Rent.class);
+                    startActivity(intent);
+                }
+            });
             return view1;
         }
 
